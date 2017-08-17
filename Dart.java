@@ -26,10 +26,10 @@ public class Dart extends Actor {
             int x = getImage().getWidth() / 2;
             int y = getImage().getHeight() / 2;
             Actor baloon = this.getOneObjectAtOffset(-x, y, Actor.class);
-            if (baloon instanceof RedBaloon) {
-                ((RedBaloon) baloon).pop();
-            } else if (baloon instanceof YellowBaloon) {
-                ((YellowBaloon) baloon).pop();
+            if (baloon instanceof RedBalloon) {
+                ((RedBalloon) baloon).pop();
+            } else if (baloon instanceof YellowBalloon) {
+                ((YellowBalloon) baloon).pop();
             }
         }
     }    

@@ -29,14 +29,14 @@ public class MyWorld extends World {
          *  Auto generate red baloon if random number less than 3
          */
         if (Greenfoot.getRandomNumber(100) < 2) {
-            this.addObject(new RedBaloon(), getBaloonRandomXPosition(), 
+            this.addObject(new RedBalloon(), getBaloonRandomXPosition(), 
                 getHeight());
         }
         /*
          *  Auto generate yellow baloon if random number equals to 99
          */
         if (Greenfoot.getRandomNumber(200) == 99) {
-            this.addObject(new YellowBaloon(), getBaloonRandomXPosition(), 
+            this.addObject(new YellowBalloon(), getBaloonRandomXPosition(), 
                 getHeight());
         }
     }

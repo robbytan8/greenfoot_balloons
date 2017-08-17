@@ -5,9 +5,9 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author Robby Tan 
  * @version 1.0
  */
-public class RedBaloon extends Actor {
+public class RedBalloon extends Actor {
     
-    public RedBaloon() {
+    public RedBalloon() {
         this.setImage("balloon1.png");
     }
     

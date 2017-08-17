@@ -1,8 +1,8 @@
 #BlueJ class context
-comment0.target=YellowBaloon
+comment0.target=YellowBalloon
 comment0.text=\r\n\ \r\n\ @author\ Robby\ Tan\r\n\ @version\ 1.0\r\n
 comment1.params=
-comment1.target=YellowBaloon()
+comment1.target=YellowBalloon()
 comment2.params=
 comment2.target=void\ act()
 comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ YellowBaloon\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
